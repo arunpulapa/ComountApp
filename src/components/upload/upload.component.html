@@ -1,0 +1,26 @@
+<div class="form-container container card" style="margin-top: 30px;">
+    <div class="form-row">
+      <label for="design-type-1">Design Type 1:</label>
+      <select id="design-type-1">
+        <option *ngFor="let type of designTypes" [value]="type">{{ type }}</option>
+      </select>
+      <label for="design-type-2">Design Type 2:</label>
+      <select id="design-type-2" >
+        <option *ngFor="let type of designTypes" [value]="type" >{{ type }}</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="age-from">Age From:</label>
+      <input id="age-from" type="number" >
+      <label for="age-to">Age To:</label>
+      <input id="age-to" type="number" >
+    </div>
+    <div class="form-row">
+      <label for="file">Choose File:</label>
+      <input id="file" type="file" >
+    </div>
+    <div class="form-row">
+      <button style="width: 100%;">Submit</button>
+    </div>
+  </div>
+  

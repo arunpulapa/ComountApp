@@ -1,0 +1,85 @@
+
+    .card {
+        position: relative;
+        border: 2px solid transparent;
+        background: linear-gradient( to right, #aac9ce, #23a2f6 );
+        background-clip: padding-box;
+    }
+
+    input{
+        border-radius: 7px !important;
+        width: 92% !important;
+        margin-left: 19px;
+        height: 35px;
+    
+    }
+
+    select{
+        width: 46%;
+        border-radius: 4px;
+        margin-left: 20px;
+        height: 30px;
+    }
+    .row{
+        margin-top:5px
+    }
+
+    .cardlogin {
+        background: linear-gradient( to right, #83ae7c, #00d4ff );
+        background-clip: padding-box;
+        padding: 60px;
+        
+        position: relative;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+
+    .container {
+        width: 100%;
+        border-radius: 5px;
+    }
+     body {
+        height: 100vh;
+        background: white;
+    }
+    .submit_button{
+        margin-top:10px
+    }
+
+    .category {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .category label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+
+            .category label .dot {
+                height: 18px;
+                width: 18px;
+                border-radius: 50%;
+                margin-right: 10px;
+                background: black;
+                border: 5px solid transparent;
+                transition: all 0.3s ease;
+            }
+
+    #dot-1:checked ~ .category label .one,
+    #dot-2:checked ~ .category label .two,
+    #dot-3:checked ~ .category label .three {
+        background: #9b59b6;
+        border-color: #d9d9d9;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+    .radio_buttons{
+        width: fit-content !important;
+    }
+
+

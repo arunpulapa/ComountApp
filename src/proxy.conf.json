@@ -1,0 +1,6 @@
+{
+    "/api": {
+        "target": "http://comount-001-site1.etempurl.com",
+        "secure": false
+    }
+}

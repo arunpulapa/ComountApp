@@ -1,0 +1,42 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="number"],
+  select,
+  input[type="file"],
+  button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: rgb(237, 136, 12);
+  }
+  .card{
+padding: 20px;
+box-shadow: rgba(179, 59, 177, 0.25) 0px 30px 100px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset !important;
+  }

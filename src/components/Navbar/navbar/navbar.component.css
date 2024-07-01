@@ -1,0 +1,53 @@
+.navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+    display:block;
+  
+}
+.navbar{
+    background: #F9F2E2 !important;
+}
+.Comount {
+    color: #ADC6C9;
+    letter-spacing: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.Helping {
+    color: black;
+}
+
+.navbar-image {
+    height: 100%;
+    width: auto;
+}
+a{
+    color: black !important;
+}
+
+.imagelogo{
+    height: 128px;
+    width: 145px;
+    margin-top: -78px;
+    background: transparent;
+}
+
+
+.input {
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+    margin-top: 7px;
+    background: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: black;
+}
+.svgicon{
+
+}
+.svgbutton{
+    border-radius: 50px;
+    padding-bottom: 4px;
+    margin-left: 5px;
+}
