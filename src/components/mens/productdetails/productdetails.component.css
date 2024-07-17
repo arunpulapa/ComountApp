@@ -24,4 +24,168 @@
   }
 
 
+  .zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    opacity: 0.4;
+    background-color: #000;
+    display: none; /* Hide initially */
+  }
   
+  .zoom-result {
+    border: 1px solid #d4d4d4;
+    width: 400px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    display: none; /* Hide initially */
+    overflow: hidden;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 20px;
+    top: 0;
+    left: 320px; /* Adjust as needed */
+  }
+
+/* CSS */
+
+/* CSS */
+.cart {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: 0;
+  padding: 10px 16px !important;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.cart:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 30%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.cart:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .cart {
+    padding: 16px 48px;
+  }
+}
+
+
+
+.product-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ratings {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.price .mrp {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.price .discount {
+    color: green;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.promo {
+    margin-bottom: 10px;
+}
+
+.color, .size {
+    margin-bottom: 10px;
+}
+
+.size ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.size ul li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-info {
+    margin-top: 20px;
+}
+
+.product-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
