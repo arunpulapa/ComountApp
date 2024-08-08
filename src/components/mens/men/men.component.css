@@ -12,6 +12,9 @@
     align-items: center;
     margin: 20px;
 }
+p{
+    text-align: left;
+}
 
 .image {
     width: 190px;
@@ -35,6 +38,7 @@
 .image-subtext {
     font-size: 1em;
     color: grey;
+    margin-top: -10px;
 }
 
 .image-price {
@@ -42,6 +46,7 @@
     font-weight: bold;
     color: coral;
     margin-top: 5px;
+    margin-top: -10px;
 }
 
 .flip-card {
